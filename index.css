@@ -45,11 +45,6 @@ body {
     border-style: none;
 }
 
-img {
-    border-radius: 50%;
-    margin-bottom: 1%;
-}
-
 .messageOneText {
     background-color: #f1ffef;
     height: 72%;
