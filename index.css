@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.mainBox {
+    height: 32%;
+    width: 58.5%;
+    background-color: white;
+}
+
+.messageOne {
+    display: flex;
+    border-style: none;
+    height: 50%;
+    width: 100%;
+}
+
+.pictureBox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 56%;
+    width: 9.5%;
+    padding-bottom: 0.5%;
+    margin-right: 2.3%;
+}
+
+.pictureArea {
+    height: 87.5%;
+    width: 65%;
+    background-size: cover;
+    background-image: url("picture.jpg");
+    border-radius: 50%;
+    border-style: none;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 1%;
+}
+
+.messageOneText {
+    background-color: #f1ffef;
+    height: 72%;
+    width: 34.8%;
+    margin-top: 1%;
+}
+
+.messageTwo {
+    display: flex;
+    border-style: none;
+    justify-content: flex-end;
+    height: 50%;
+    width: 100%;
+}
+
+.messageTwoText {
+    background-color: #f1ffef;
+    height: 80%;
+    width: 38.5%;
+    margin-top: 1.5%;
+}
+.messageText {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5.5%;
+    height: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333731;
+}
+
+.messageState {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1%;
+    margin-right: 10.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #99a097;
+}
+.messageTwoState {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #99a097;
+}
+
+.firstTick {
+    margin-right: -2.5%;
+    margin-left: 5%;
+}
